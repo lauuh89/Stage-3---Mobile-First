@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-100: #feeafa;
+  --pink-300: #cbc0d3;
+  --gray-50: #eff1ff;
+  --gray-700: #8e9aaf;
+  --gray-800: #4a4e69;
+  --violet-950: #23053A;
+  --ff-title: "Staatliches", sans-serif;
+
+  font-size: 62%;
+}
+
+body {
+  background-color: var(--gray-50);
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: var(--gray-700);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  padding: 3.2rem 0 2.9rem;
+}
+
+header h1 {
+  font-family: var(--ff-title);
+  font-size: 4rem;
+  background-color: var(--pink-300);
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  width: 100%;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.20);
+}
+
+p {
+    text-align: center;
+    padding: 0 3.6rem;
+    margin-top: 1.4rem;
+    line-height: 1.5rem;
+    color: var(--violet-950);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardList {
+  margin-top: 5rem;
+  margin-bottom: 6.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card span {
+  position: absolute;
+  font-size: 2rem;
+  top: 1.6rem;
+  right: 1.6rem;
+  padding: 0.4rem 2.4rem;
+  background-color: var(--pink-100);
+  color: var(--gray-800);
+  font-family: var(--ff-title);
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: 0.1rem;
+  border-radius: 999px;
+}
